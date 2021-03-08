@@ -10,6 +10,7 @@ terraform apply
 ![image](https://user-images.githubusercontent.com/53195216/110395707-ae652c00-807f-11eb-9714-2608df1ba1ff.png)
 kubernetes configuration file with credentials will be automatically geneated and available in the same directory
 ![image](https://user-images.githubusercontent.com/53195216/110396655-72cb6180-8081-11eb-92e2-6ef87d69ae65.png)
+
 Inspect the cluster pods using the generated kubeconfig file:
 ~~~
 kubectl get pods --all-namespaces --kubeconfig=kubeconfig-prod

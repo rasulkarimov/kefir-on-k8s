@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: {{ .Release.Name }}-service
   labels:
-    env  : prod
-    owner: DenisAstahov
+    env  : dev
+    owner: rasulkarimov
 spec:
   selector:
-    project: {{ .Release.Name }}    # Selecting PODS with those Labels
+    project: {{ .Release.Name }}    
   ports:
     - name      : {{ .Release.Name }}-listener
       protocol  : TCP

@@ -1,0 +1,17 @@
+apiVersion: v0.1
+name       : app-HelmChart
+description: kefir  chart for Kubernetes
+type       : application
+version    : 0.1.0   # This is the Helm Chart version
+appVersion : "0.0.1" # This is the version of the application being deployed
+
+keywords:
+  - apache
+  - http
+  - https
+  - rasulkarimov
+
+maintainers:
+  - name : Rasul Karimov
+    email: rasul.karimov@gmail.com
+    url  : gitlab.com/rasul.karimov

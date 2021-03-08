@@ -1,0 +1,6 @@
+# Default Values for my Helm Chart
+
+container:
+  image: gcr.io/kefir-306607/kefir:v1.6
+
+replicaCount: 2

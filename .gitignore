@@ -1,0 +1,7 @@
+.DS_Store
+
+# .idea is the user setting configuration directory for IntelliJ, or more generally Jetbrains IDE Products.
+.idea
+.terraform
+
+kubeconfig*

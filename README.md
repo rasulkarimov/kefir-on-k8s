@@ -35,18 +35,18 @@ Deploy application using Helm:
 ~~~
 helm install app app-HelmChart/
 ~~~
-![image](https://user-images.githubusercontent.com/53195216/110397649-503a4800-8083-11eb-81a4-c5b3bd925cb7.png) 
+![image](https://user-images.githubusercontent.com/53195216/110397649-503a4800-8083-11eb-81a4-c5b3bd925cb7.png) <br/>
 
 
-Inspect that pods are created:
-![image](https://user-images.githubusercontent.com/53195216/110397843-ab6c3a80-8083-11eb-94b3-edae55a1b0c6.png) 
+Inspect that pods were created:
+![image](https://user-images.githubusercontent.com/53195216/110397843-ab6c3a80-8083-11eb-94b3-edae55a1b0c6.png) <br/>
 
 
 Optain external IP of loadBalancer:
-![image](https://user-images.githubusercontent.com/53195216/110397998-f8501100-8083-11eb-9020-cd4bea04ae0b.png) 
+![image](https://user-images.githubusercontent.com/53195216/110397998-f8501100-8083-11eb-9020-cd4bea04ae0b.png) <br/>
 
 
 Check availability:
-![image](https://user-images.githubusercontent.com/53195216/110398061-1b7ac080-8084-11eb-9017-3ca52d5b1d39.png)
+![image](https://user-images.githubusercontent.com/53195216/110398061-1b7ac080-8084-11eb-9017-3ca52d5b1d39.png) <br/>
 
 

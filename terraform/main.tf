@@ -30,7 +30,6 @@ module "gcp-network" {
 
 module "gke" {
   source                 = "terraform-google-modules/kubernetes-engine/google"
-  version                = "9.3.0"    
   project_id             = var.project_id
   name                   = "${var.cluster_name}-${var.env_name}"
   regional               = true
@@ -54,8 +53,8 @@ module "gke" {
 
 
 module "gke_auth" {
-  source = "terraform-google-modules/kubernetes-engine/google//modules/auth"
-  version = "9.3.0"
+  source = "./modules/auth"
+  auth_depends_on = [module.gke]
   project_id   = var.project_id
   location     = module.gke.location
   cluster_name = module.gke.name

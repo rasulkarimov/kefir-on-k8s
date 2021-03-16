@@ -7,7 +7,7 @@ terraform plan
 terraform apply
 ~~~
 ![image](https://user-images.githubusercontent.com/53195216/110395583-72ca6200-807f-11eb-82bd-adfed2c47ae5.png)
-![image](https://user-images.githubusercontent.com/53195216/110395707-ae652c00-807f-11eb-9714-2608df1ba1ff.png)
+![image](https://user-images.githubusercontent.com/53195216/111385518-fb6a8300-86bb-11eb-9c5d-75fb45c09fce.png)
 kubernetes configuration file with credentials will be automatically geneated and available in the same directory
 ![image](https://user-images.githubusercontent.com/53195216/110396655-72cb6180-8081-11eb-92e2-6ef87d69ae65.png)
 
